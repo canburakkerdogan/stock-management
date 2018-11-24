@@ -5,7 +5,7 @@
  */
 package io.github.ydhekim.model;
 
-public class Manager extends Employee {
+public class Manager extends Employee implements IAccountOperations {
 
 	public Manager() {
 	}
@@ -51,6 +51,16 @@ public class Manager extends Employee {
 	}
 
 	public void receiveReport() {
+	}
+
+	public boolean login(int id, int password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean logout() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }
