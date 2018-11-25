@@ -5,7 +5,7 @@
  */
 package io.github.ydhekim.model;
 
-public class DeparmentAttendant extends Employee {
+public class DeparmentAttendant extends Employee implements IAccountOperations {
 
 	public DeparmentAttendant() {
 	}
@@ -18,6 +18,17 @@ public class DeparmentAttendant extends Employee {
 	}
 
 	public void showOrderStatus() {
+	}
+
+	//TODO department attendant login/logout
+	public boolean login(int id, int password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean logout() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

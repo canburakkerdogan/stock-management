@@ -53,6 +53,7 @@ public class Manager extends Employee implements IAccountOperations {
 	public void receiveReport() {
 	}
 
+	//TODO manager login/logout
 	public boolean login(int id, int password) {
 		// TODO Auto-generated method stub
 		return false;
