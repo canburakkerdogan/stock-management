@@ -22,12 +22,10 @@ public class WarehouseAttendant extends Employee implements IAccountOperations {
 
 	//TODO warehouse attendant login/logout
 	public boolean login(int id, int password) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
 	public boolean logout() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 }
