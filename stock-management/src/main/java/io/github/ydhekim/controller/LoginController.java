@@ -15,6 +15,7 @@ public class LoginController extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		response.setContentType("text/html");
 
 		int employeeId = Integer.parseInt(request.getParameter("employee_id"));
 		int employeePw = Integer.parseInt(request.getParameter("employee_pw"));
