@@ -23,7 +23,7 @@
 				<div class="col-md-12 col-sm-12 login">
 					<form action="LoginController" method="post">
 						<br>
-						<h2>Caannn</h2>
+						<h2>yasiiinnn</h2>
 						<hr id="hr">
 						<div class="form-group col-md-10 offset-md-1 col-sm-12 input">
 							<input class="form-control" type="text" name="employee_id"
